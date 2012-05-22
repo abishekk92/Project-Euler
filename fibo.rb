@@ -3,7 +3,7 @@ sum=0
 until a >= 4000000
 a,b=b,a+b
 if a <= 4000000 &&  a.even?
-sum+=a;
+sum+=a
 #print "#{a}\n"
 end 
 end 
